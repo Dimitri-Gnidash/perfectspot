@@ -13,10 +13,27 @@ The idea behind this package is to do a quick analysis of volatility and pricing
 
 ## Different ways to access
 
+This functionality can be used in a variety of ways: use through a webpage, REST API, Command-line, or as a Python lib.
+
+### Web
+
 ### REST API
 
 ### Command line
 
-### Using a library
+Run setup.py in the repo folder.
 
+`python setup.py install`
+
+You will need to set two environment variables to access AWS services.
+```
+export AWS_SECRET_KEY = 
+export AWS_AUTH_KEY =
+```
+
+Finally,
+`perfectspot `
+
+
+### Using a library
 
